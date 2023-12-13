@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Transit Methoid</title>
+</head>
+<body>
+    <div class="stars"></div>
+    <section class="info">    
+        <header id="title">
+            <h1>Works Cited</h1>
+        </header>
+        <nav id="table-of-contents">
+            <a href="./index.html">Home</a>
+            <a href="./transit.html">Transit Method</a>
+            <a href="./radial.html">Radial Velocity Method</a>
+            <a href="./researchnotes.html">Research Notes</a>
+            <a href="./workscited.html">Works Cited</a>
+        </nav>
+    </section>
+        <section class ="front">
+            <aside id="pagetext">
+                <p>Click on the Exoplanet</p>
+                <p>To Learn more about</p>
+                <p>the Transit Method!</p>
+            </aside>
+            <div class="sun"></div>
+            <div class="planet" id="circulating-transit"></div>
+            <div class="info-popup" id="info-popup">
+                <h2>Planet Details</h2>
+                <p>The Transit Method is a clever way of deducing information like Exoplanet Size and Orbital Period based on changes in a Host Star's light emission.
+                    This is by keeping track of the level of light emitted from a Host Star, as dips in this level would be caused by a exoplanet passing in front of it, blocking part of it.
+                    Based on data like duration of decrease in light, and intensity of that decrease, we can deduce the size and orbital period of these exoplanets.
+                </p>
+                <video width="640" height="360" controls>
+                    <source src="./transit.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <br>
+                <a href="https://exoplanets.nasa.gov/resources/2144/transit-method-multiple-planets/"><small>SOURCE</small></a>
+                <br>
+                <button id="close-btn">Close</button>
+            </div>
+        </section>
+        <footer>
+            <p>By Howie Miao</p>
+            <address>howie.miao@gmail.com</address>
+        </footer>
+    <script src="transit.js"></script>
+</body>
+</html>
